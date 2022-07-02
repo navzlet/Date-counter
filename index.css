@@ -1,0 +1,21 @@
+*{
+  box-sizing: border-box;
+}
+
+.background-image{
+  position: absolute;
+  width: 75%;
+  z-index: 2;
+  opacity: 0.6;
+}
+
+body{
+  margin: 0;
+
+  background-color: rgba(0, 0, 0, 0.915);
+
+}
+
+
+.hours-block{
+}
