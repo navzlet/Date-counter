@@ -1,12 +1,11 @@
+const dateMessage = "New year";
+document.querySelector(".container__heading_bigText").textContent = dateMessage;
+
 const days = document.getElementById("days");
 const hours = document.getElementById("hours");
 const minutes = document.getElementById("minutes");
 const seconds = document.getElementById("seconds");
 
-const dateMessage = "New year";
-document.querySelector(".container__heading_bigText").textContent = dateMessage;
-// console.log(11 - date.getMonth());
-// seconds.textContent =
 const countDate = function () {
   const currentDate = new Date();
   const dayCountTo = `1 Jan ${currentDate.getFullYear() + 1}`;
