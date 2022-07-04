@@ -8,27 +8,36 @@
     <title>Date-counter</title>
   </head>
   <body>
-    <div>coundtoun to</div>
-    <h1>New Year</h1>
-    <div class="timer-container">
-      <div class="days-block">
-        <p class="big-text" id="days"></p>
-        <span>days</span>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
+    </style>
+    <div class="container">
+      <div class="container__heading">
+        <hr />
+        coundtoun to
+        <hr />
       </div>
-      <div class="hours-block">
-        <p class="big-text" id="hours"></p>
-        <span>hours</span>
-      </div>
-      <div class="minutes-block">
-        <p class="big-text" id="minutes"></p>
-        <span>minute</span>
-      </div>
-      <div class="seconds-block">
-        <p class="big-text" id="seconds"></p>
-        <span>seconds</span>
+
+      <h1 class="container__heading_bigText">New Year</h1>
+      <div class="timer">
+        <div class="timer__date">
+          <p class="timer__bigText" id="days">1</p>
+          <span>days</span>
+        </div>
+        <div class="timer__date">
+          <p class="timer__bigText" id="hours">2</p>
+          <span>hours</span>
+        </div>
+        <div class="timer__date">
+          <p class="timer__bigText" id="minutes">3</p>
+          <span>minute</span>
+        </div>
+        <div class="timer__date">
+          <p class="timer__bigText" id="seconds">4</p>
+          <span>seconds</span>
+        </div>
       </div>
     </div>
-    <img class="background-image" src="/yiran-yang-lo_pwIr9U1k-unsplash.jpg" />
     <script src="index.js"></script>
   </body>
 </html>

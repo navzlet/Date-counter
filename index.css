@@ -1,21 +1,59 @@
-*{
+* {
   box-sizing: border-box;
-}
-
-.background-image{
-  position: absolute;
-  width: 75%;
-  z-index: 2;
-  opacity: 0.6;
-}
-
-body{
+  font-family: "Poppins", sans-serif;
   margin: 0;
-
-  background-color: rgba(0, 0, 0, 0.915);
-
 }
 
+html,
+body {
+  background: linear-gradient(90deg, #b9deed, #efefef);
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
 
-.hours-block{
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container__heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container__heading_bigText {
+  text-transform: uppercase;
+}
+
+.timer {
+  display: flex;
+  margin-top: 60px;
+}
+
+hr {
+  width: 20px;
+  height: 3px;
+  margin: 5px;
+  background-color: #000000;
+}
+
+.timer__date {
+  width: 150px;
+  height: 160px;
+  background-color: #c4c4eb7c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+.timer__bigText {
+  font-size: 60px;
+  font-weight: bold;
 }
